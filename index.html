@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="dark-mode"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <label for="url" id="label1">A Kép url-je:</label>
+          <input type="text" id="url" name="url">
+        </div>
+        <div class="col-sm-3">
+          <label for="szeleseg" id="label2">Kép Szélesége(Pixelben):</label>
+          <input type="number" id="szeleseg" name="szeleseg">
+        </div>
+        <div class="col-sm-3">
+          <label for="keretvastagsag" id="label3">A Kép keret vastagsaga:</label>
+          <input type="number" id="keretvastagsag" name="keretvastagsag">
+        </div>
+        <div class="col-sm-3">
+          <label for="keretszin" id="label4">A Kép url-je:</label>
+          <input type="color" id="keretszin" name="keretszin">
+        </div>
+        <div class="col-sm-12">
+          <button id="gomb">Mehet</button>
+        </div>
+        <div class="col-sm-12">
+          <img src="127.0.0.1.jpeg" alt="kep" id="kep">
+        </div>
+        <footer>
+          <p id="label5">Készitete:Tomik Dávid 14/S</p>
+          <button id="darkmode">Dark Mode</button>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
